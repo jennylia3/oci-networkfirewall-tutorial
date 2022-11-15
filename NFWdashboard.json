@@ -152,7 +152,7 @@
           "type": "WIDGET_SHOW_IN_DASHBOARD",
           "ui-config": {
             "enableWidgetInApp": true,
-            "queryString": "'Log Source' = 'Network Firewall  Threat Log' | timestats count as logrecords by Action | sort -logrecords",
+            "queryString": "'Log Source' = 'Network Firewall Threat Log' | timestats count as logrecords by Action | sort -logrecords",
             "scopeFilters": {
               "Entity": {
                 "flags": {
@@ -552,7 +552,7 @@
           "type": "WIDGET_SHOW_IN_DASHBOARD",
           "ui-config": {
             "enableWidgetInApp": true,
-            "queryString": "'Log Source' = 'Network Firewall  Threat Log' | geostats count as logrecords",
+            "queryString": "'Log Source' = 'Network Firewall Threat Log' | geostats count as logrecords",
             "scopeFilters": {
               "Entity": {
                 "flags": {
@@ -751,7 +751,7 @@
           "type": "WIDGET_SHOW_IN_DASHBOARD",
           "ui-config": {
             "enableWidgetInApp": true,
-            "queryString": "'Log Source' = 'Network Firewall  Threat Log' | timestats count as logrecords by 'Threat Category', 'Threat Event ID' | sort -logrecords",
+            "queryString": "'Log Source' = 'Network Firewall Threat Log' | timestats count as logrecords by 'Threat Category', 'Threat Event ID' | sort -logrecords",
             "scopeFilters": {
               "Entity": {
                 "flags": {
@@ -951,7 +951,7 @@
           "type": "WIDGET_SHOW_IN_DASHBOARD",
           "ui-config": {
             "enableWidgetInApp": true,
-            "queryString": "'Log Source' = 'Network Firewall  Threat Log' | stats count as logrecords by 'Client Host Country', 'Threat Category' | sort -logrecords | top 10 logrecords",
+            "queryString": "'Log Source' = 'Network Firewall Threat Log' | stats count as logrecords by 'Client Host Country', 'Threat Category' | sort -logrecords | top 10 logrecords",
             "scopeFilters": {
               "Entity": {
                 "flags": {
